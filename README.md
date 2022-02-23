@@ -8,3 +8,5 @@ To add files to staging area:
 
 To get status of files:
 	git status
+	
+Added text to revert.
