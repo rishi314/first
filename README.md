@@ -18,5 +18,8 @@ git log --follow -- filename    -> gives log of particular file
 ##To get difference between local and remote branch:
 git diff main origin/main
 
+##To reset
+git reset --hard HEAD~1   -> previous commit
+
 ##To create a branch:
 git branch br_name
