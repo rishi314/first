@@ -6,6 +6,9 @@
 git add "filename"
 git add .   -> for all files
 
+##To untrack a file from staging area:
+git restore --staged <filename>
+
 ##To get status of files:
 git status
 
