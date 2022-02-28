@@ -19,7 +19,8 @@ git log --follow -- filename    -> gives log of particular file
 git diff main origin/main
 
 ##To reset
-git reset --hard HEAD~1   -> previous commit
+git reset --mixed HEAD~1
+git reset --hard HEAD~1
 
 ##To create a branch:
 git branch br_name
