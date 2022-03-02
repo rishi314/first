@@ -23,3 +23,9 @@ git diff main origin/main
 
 ##To create a branch:
 git branch br_name
+  
+git checkout br_name    -> To switch to particular branch
+git branch -m br_name newbr_name   -> To rename a branch
+git branch -d br_name    -> To delete a branch
+
+  
